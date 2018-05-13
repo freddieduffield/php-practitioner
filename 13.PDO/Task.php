@@ -6,9 +6,9 @@ class Task
 
     public $completed;
 
-    public function foobar()
-    {
-        return foobar;
-    }
+    // public function foobar()
+    // {
+    //     return foobar;
+    // }
 
 }
