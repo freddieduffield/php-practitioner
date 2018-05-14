@@ -22,10 +22,10 @@ class Post
 }
 
 $posts = [
-    new post('My First Post', 'FD', true),
-    new post('My Second Post', 'FD', true),
-    new post('My Third Post', 'WE', true),
-    new post('My Fourth Post', 'RY', false)
+    new Post('My First Post', 'FD', true),
+    new Post('My Second Post', 'FD', true),
+    new Post('My Third Post', 'WE', true),
+    new Post('My Fourth Post', 'RY', false)
 ];
 
 // Array Filter
@@ -56,7 +56,7 @@ $posts = [
 // var_dump($titles);
 
 
-// Putting it all together 
+// Putting it all together
 
 $posts = array_map(function ($post) {
     return (array) $post;
