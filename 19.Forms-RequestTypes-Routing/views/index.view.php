@@ -2,8 +2,8 @@
 
 <h1>Submit Your Name</h1>
 
-<form method="GET" action="/names">
-<input name="name"></input>
+<form method="POST" action="/names">
+<input name="names"></input>
 <button type="submit">Submit</button>
 </form>
 
